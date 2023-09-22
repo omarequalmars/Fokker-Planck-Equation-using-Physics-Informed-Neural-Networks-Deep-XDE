@@ -16,7 +16,7 @@ However, only so much data could be produced by these experiments. This causes t
 In a wonderful, in my opinion revolutionary, paper by Maziar Raissi, Paris Perdikaris, and George Em Karniadakis, they introduce the Physics-informed Neural Network (https://www.sciencedirect.com/science/article/pii/S0021999118307125). In an implementation that solves the prior problems with a simple technique of regularization based on common PDE constraints such as Dirichlet/VN/Robin Boundary conditions. It also suggests regularization by placing constraints in terms of conservation laws or rather fundamental laws for the system at hand (ex. The square-integrability of the wave function in case of the Schrodinger Wave Equation).
 
 ## DeepXDE for Physics-informed Machine Learning
-In this example, I'm using a python package called DeepXDE (https://deepxde.readthedocs.io/en/latest/index.html) for physics-informed machine learning developed by George Em Karniadakis at Brown University and now maintained by Lu Lu at UPenn and other honorable members of the Lu Lu group. I highly recommend the reader go over their work, it is very interesting and I am for sure a great fan of their work.
+In this example, I'm using a python package called DeepXDE (https://deepxde.readthedocs.io/en/latest/index.html) for physics-informed machine learning developed by George Em Karniadakis at Brown University and now maintained by Lu Lu at UPenn and other honorable members of the Lu Lu group (https://lu.seas.upenn.edu/). I highly recommend the reader go over their work, it is very interesting and I am for sure a great fan of their work.
 
 ## Project Focus
 In this small project we will focus on solutions for the Fokker-Planck equation in its 2nd order form.
